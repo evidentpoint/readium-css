@@ -1,5 +1,5 @@
 {
-  "name": "readium-css",
+  "name": "@evidentpoint/readium-css",
   "description": "A set of reference stylesheets for EPUB Reading Systems",
   "version": "1.0.0-alpha.2",
   "homepage": "https://github.com/readium/readium-css",
@@ -22,6 +22,9 @@
   },
   "bugs": {
     "url": "https://github.com/readium/readium-css/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "main": "css/ReadiumCSS-config.css",
   "devDependencies": {
